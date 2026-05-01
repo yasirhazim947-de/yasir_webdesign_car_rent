@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>FD Cars</title>
+
+        <!--responsive and link css-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        
+        <!--link JS and scrol reveal-->
+        
+        <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.js"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" 
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" />
+
+
+
+
+
+      <style>
+        /* Reset styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+
+/* About Us Section */
+.about-us {
+    padding: 40px 20px;
+    background: linear-gradient(to right, #cce7ff, #e0f7fa);
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+.about-us p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.developer {
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+    
+}
+
+.developer h3 {
+    font-size: 22px;
+    color: #004080;
+}
+
+.developer p {
+    font-size: 14px;
+    color: #555;
+}
+
+.company-info {
+    margin-top: 40px;
+    text-align: left;
+    padding: 15px;
+    background: #f7f7fb;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 80%;
+}
+
+.company-info h3 {
+    font-size: 22px;
+    color: #004080;
+    margin-bottom: 10px;
+}
+
+.company-info p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+      </style>
+
+
+
+
+
+
+    </head>
+    <body>
+        <nav>
+            <a href="index.html" class="brand">
+                <h1>FD <b class="accent">Ride</b></h1>
+            </a>
+            <div class="menu">
+                <div class="btn">
+                    <i class="fas fa-times close-btn"></i>
+                </div>
+                <a href="index.html">HOME</a>
+                <a href="collection.html">CARS</a>
+                <a href="index.html#about">ABOUT</a>
+                <a href="contact us.html">CONTACT US</a>
+            </div>
+            <button class="btn-2" onclick="window.location.href='contact.html'">
+                Get Started
+            </button>
+
+            <div class="btn">
+                <i class="fas fa-bars menu-btn"></i>
+            </div>
+        </nav>
+         
+       <!--navebar End-->
+
+
+
+
+
+
+       
+
+      
+           <header>
+               <div class="navbar">
+                   <h1 class="logo">FD Ride</h1>
+                  
+               </div>
+           </header>
+       
+           <main>
+               <section class="about-us">
+                   <h2 style="margin-top: 80px;">About Us</h2>
+                   <p>Welcome to FD Ride! We are a passionate team dedicated to helping you find your dream ride.</p>
+       
+                   <div class="developer">
+                       <h3>Amad Jabri</h3> <img src="img/amad.jpg" width="100px" alt="img">
+                       <p>Amad is a co-founder of FD Ride and an experienced software developer. With a background in computer science and a passion for user-friendly designs, she leads the team in creating seamless car rental experiences.</p>
+                   </div>
+       
+                   <div class="developer">
+                       <h3>Yasir Hazim</h3><img src="img/yasir.jpg" width="100px" alt="img">
+                       <p>Yasir is a co-founder of FD Ride and a car enthusiast. His expertise in logistics and software ensures that our platform is reliable and efficient for customers worldwide.</p>
+                   </div>
+       
+                   <div class="company-info">
+                       <h3>Our Company</h3>
+                       <p><strong>Company Name:</strong> FD Ride</p>
+                       <p><strong>Founded:</strong> 2020</p>
+                       <p><strong>Location:</strong> Erbil, Iraq</p>
+                       <p><strong>Growth:</strong> FD Ride started as a small idea between two friends in Erbil and has grown into a trusted platform serving customers across multiple cities, offering a wide range of premium cars for rent.</p>
+                   </div>
+               </section>
+           </main>
+
+
+
+
+
+
+
+
+
+       <!--Footer Section -->
+
+       <footer class="collection-footer">
+        <div class="callout">
+            <h2>Let's drive with FD Cars Today! </h2>
+            <p class="callout-description">
+                Need assistance or ready to reserve your wheels? Contact as now for
+                prompt service and efforless booking!
+          </p>
+          <div class="callout-buttons">
+            <button class="btn-2 btn-callout" onclick="window.location.href='collection.html'">
+               <p>Check Our Cars</p>
+               <i class="fa-solid fa-arrow-right-long"></i>
+            </button>
+            <button class="btn-2 btn-callout btn-callout-black" onclick="window.location.href='contact.html'">
+                <p>Book Now</p>
+                <i class="fa-solid fa-phone"></i>
+
+             </button>
+
+          </div>
+        </div>
+        
+         <div class="footer-bottom">
+            <a href="" class="footer-brand">FD <b class="accent">Ride </b></a>
+            <div class="socials">
+                <a href="https://www.facebook.com/share/14PqLRsjuE/" class="social-item">
+                    <i class="fa-brands fa-facebook-f"><img src="" alt=""></i>
+                </a>
+                <a href="https://www.instagram.com/amad_jabri?igsh=d3E0MDZlempqMTA5" class="social-item">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://tiktok.com/@yasir_cs" class="social-item">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="https://t.me/soranuniversitycs" class="social-item">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+            </div>
+         </div>
+
+      </footer>
+
+        <!--Footer Section End -->
+
+
+    </body>
+    </html>
+    
+
+
+
+
